@@ -1,6 +1,6 @@
 <template>
   <div class="CardComp">
-    <div class="card" :class="cita.gravedad == 'Baja'? 'text-bg-success' : cita.gravedad == 'Media'? 'bg-warning' : 'text-bg-danger'" style="width: 18rem">
+    <div class="card" :class="cita.gravedad == 'Baja'? 'text-bg-success' : cita.gravedad == 'Media'? 'bg-warning' : 'text-bg-danger'">
       <div class="card-body">
         <h6 class="card-title">Paciente</h6>
         <p class="card-text">{{ cita.paciente }}</p>
